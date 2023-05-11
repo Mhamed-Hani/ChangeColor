@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Change Color</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="content">
+            <div class="card">
+                <div class="img" id="image">
+                    <img src="css/1000001511.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h2 id="name">Mohamed Hani</h2>
+                    <p>Fresh Front-end Developer</p>
+                </div>
+                <div class="follow">
+                    <div class="followers">
+                        <h1>1.5K</h1>
+                        <h2 id="followers">Followers</h2>
+                    </div>
+                    <div class="following">
+                        <h1>1.5K</h1>
+                        <h2 id="following">Following</h2>
+                    </div>
+                </div>
+                <div class="follow-me">
+                    <button id="follow">Follow</button>
+                    <button id="message">Message</button>
+                </div>
+            </div>
+            <div class="colors">
+                <div onclick="changeColor(this.id)" id="#0077b6"></div>
+                <div onclick="changeColor(this.id)" id="#ef233c"></div>
+                <div onclick="changeColor(this.id)" id="#52b788"></div>
+                <div onclick="changeColor(this.id)" id="#480ca8"></div>
+                <div onclick="changeColor(this.id)" id="#ffb700"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
